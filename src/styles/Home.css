@@ -128,13 +128,29 @@
     to { transform: translateY(-10px); }
   }
 
-  @media (max-width: 576px) {
-   .popup{
+  @media (max-width: 540px) {
+   /* .popup{
     margin: 10px;
-   }
+   } */
+
+   .popup h2 {
+    color: black;
+    font-size: 30px;
+  }
 
    .popup input{
-    width: 45px;
-    margin:4px;
+    width: 60px;
+    margin-left:15px;
    }
+  }
+
+   @media (max-width: 457px) {
+    .popup{
+     margin: 10px;
+    }
+ 
+    .popup input{
+     width: 35px;
+     margin-left:10px;
+    }
   }

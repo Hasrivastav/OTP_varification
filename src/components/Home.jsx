@@ -75,7 +75,7 @@ function Home() {
         <div className="popup">
           <h2 style={{textAlign: 'center' ,marginTop:'-10px'}}>Phone Verification</h2>
           <h3 style={{textAlign: 'center'}}>Enter the OTP  you recieved on 8920XXXXX:</h3>
-          <div>
+          <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>
             {[...Array(6)].map((_, index) => (
               <input
                 key={index}
