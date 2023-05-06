@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.popup {
+    gap: 15px;
+    padding: 15px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    height: 344px;
+    width: 500px;
+    background-color:white;
+    border: 1px solid  black;
+}
+  
+  .popup input {
+  
+    margin-left: 4px;
+    width: 76px;
+    font-size: 24px;
+    text-align: center;
+    background-color:  white;
+  }
+  
+  .popup-container {
+    margin: 0 20px;
+    display: flex;
+    background-color: #76b852;;
+     height:100vh; 
+     justify-content: center;
+     align-items:center;
+     margin: 0 auto;
+
+  }
+  
+  .popup h2 {
+    color: black;
+    font-size: 40px;
+  }
+  
+  .popup h3 {
+    color:#4CAF50;;
+  }
+  
+  .popup a {
+    margin: auto;
+    text-decoration: none;
+    color: #4CAF50;
+  }
+  
+  .popup button {
+    /* Add your button styles here */
+    background-color: #4CAF50;
+    font-size: 20px;
+    width:300px;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  }
+
+  .popup button:hover {
+    background-color: #639648;;
+  }
+  
+  .verify-button {
+    
+    align-content: center;
+
+  }
+  
+
+  .buttons_class{
+    display: flex;
+     justify-content: space-between;
+      margin-top: 20px;
+  }
+
+  .submit_button_class{
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .verify {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ .verify img {
+    height: 150px;
+    width: 150px;
+    margin-right: 8px;
+    animation-name: upDownAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    margin-left: 10px;
+  }
+
+  .verify-button{
+    font-size: 20px;
+    padding: 2px;
+    color: white;
+    background-color: #006e04;;
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    animation-name: upDownAnimation;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+ 
+  @keyframes upDownAnimation {
+    from { transform: translateY(+10px); }
+    to { transform: translateY(-10px); }
+  }
+
+  @media (max-width: 576px) {
+   .popup{
+    margin: 10px;
+   }
+
+   .popup input{
+    width: 45px;
+    margin:4px;
+   }
+  }
